@@ -77,12 +77,10 @@ class Main:
 		except KeyError:
 			os.remove("data/token");os.remove("data/coki")
 			exit(" ! Your token Expired ! ")			
-			
-                 print  (
-			f" >> Your Account: {info['name']}, {info['id']} << " 
+			print(
+			f" >> Your Account: {info['name']}, {info['id']} << "
 		)
-	
-		print(
+	print(
 			"""
 	1.) Crack from friends list
 	2.) Crack from followers list
