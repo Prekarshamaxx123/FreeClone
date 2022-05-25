@@ -5,6 +5,9 @@ New Update Working ( 2020.05.20 ).
 
 
 
-git clone https://github.com/Prekarshamaxx123/FreeClone.git && 
+git clone https://github.com/Prekarshamaxx123/FreeClone.git 
+
+#RUN
+
 cd FreeClone && 
 python DarkPrekash.py
