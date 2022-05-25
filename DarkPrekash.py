@@ -76,11 +76,12 @@ class Main:
 			info = self.get_my_info
 		except KeyError:
 			os.remove("data/token");os.remove("data/coki")
-			exit(" ! Your token Expired ! ")
-
-		print  ( You can copy me but you can not match me 
+			exit(" ! Your token Expired ! ")			
+			
+                 print  (
 			f" >> Your Account: {info['name']}, {info['id']} << " 
 		)
+	
 		print(
 			"""
 	1.) Crack from friends list
