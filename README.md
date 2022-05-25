@@ -1,5 +1,5 @@
 # FreeClone
-New Update Working ( 2020.05.20 ). 
+New Update Working ( 2020.05.20 ). Don't Copy This Script 
 
 😍😍😍😍
 
