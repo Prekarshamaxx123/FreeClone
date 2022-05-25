@@ -3,7 +3,7 @@
 Enjoy and Fallow mE
 
 
-Don't Copy This Script 😍😑
+Dont Copy This Script 
  main
 @Prekarsha
 #!/usr/bin/python
