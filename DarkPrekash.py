@@ -78,7 +78,7 @@ class Main:
 			os.remove("data/token");os.remove("data/coki")
 			exit(" ! Your token Expired ! ")
 
-		print  jalan(You can copy me but you can not match me $~
+		print  (jalan" You can copy me but you can not match me $~"
 			f" >> Your Account: {info['name']}, {info['id']} << " 
 		)
 		print(
