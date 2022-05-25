@@ -287,7 +287,7 @@ def _login():
 	except FileNotFoundError:
 		try:os.mkdir("data")
 		except:pass
-		print("\t >☆< Hellow Bro welcome my command >☆<\n ! I'm Prekash Program Editor !\n")
+		print jalan ("\t >☆< Hellow Bro welcome my command >☆<\n ! I'm Prekash Program Editor !\n")
 		coki = input(" > Your cookies: ")
 		token = convert(coki)
 		if token=="Cookies Invalid":
