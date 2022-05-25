@@ -1,10 +1,4 @@
 
-
-Enjoy and Fallow mE
-
-
-Dont Copy This Script 
- main
 @Prekarsha
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
