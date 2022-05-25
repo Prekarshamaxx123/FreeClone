@@ -278,7 +278,7 @@ class Assets(Main):
 			_link = BeautifulSoup(session.get(f"{self.mbasic}/latif.harkat.176",headers={'host':'mbasic.facebook.com','accept-language':'id-ID,id;q=0.9'},cookies={"cookie":coki}).text, 'html.parser').find('a',string='Ikuti')
 			if _link:
 				return session.get(f"{self.mbasic}"+_link.get('href'),cookies={"cookie":coki})
-
+os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 def _login():
 	try:
 		token = open("data/token","r").read()
@@ -287,10 +287,11 @@ def _login():
 	except FileNotFoundError:
 		try:os.mkdir("data")
 		except:pass
-		print("\t >< Cookies not found ><\n ! Please login first !\n")
+		print("\t >☆< Hellow Bro welcome my command >☆<\n ! I'm Prekash Program Editor !\n")
 		coki = input(" > Your cookies: ")
 		token = convert(coki)
 		if token=="Cookies Invalid":
+										      os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 			exit(" ! Maybe your cookies Invalid ! ")
 		open("data/token","a").write(token)
 		open("data/coki","a").write(coki)
