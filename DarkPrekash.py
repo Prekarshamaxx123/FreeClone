@@ -1,6 +1,6 @@
 
 
-Enjoy 😍 and Fallow mE
+Enjoy and Fallow mE
 
 
 Don't Copy This Script 😍😑
