@@ -28,7 +28,7 @@ os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 def convert(cookie):
 	cookies = {"cookie":cookie}
 	res = requests.Session().get('https://business.facebook.com/business_locations', headers = {
-		'user-agent'	:	'Mozilla/5.0 (Linux; Android 10; SM-M205F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.89 Safari/537.36',
+		'user-agent'	:	'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29',
 		'referer'	:	'https://www.facebook.com/',
 		'host'	:	'business.facebook.com',
 		'origin'	:	'https://business.facebook.com',
