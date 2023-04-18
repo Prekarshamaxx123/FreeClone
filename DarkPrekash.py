@@ -28,15 +28,15 @@ os.system('xdg-open https://www.facebook.com/PREKASH.I.AM.HACKER.Im.silent')
 def convert(cookie):
 	cookies = {"cookie":cookie}
 	res = requests.Session().get('https://business.facebook.com/business_locations', headers = {
-		'user-agent'	:	'Mozilla/5.0 (Linux; Android 8.1.0; MI 8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.86 Mobile Safari/537.36',
+		'user-agent'	:	'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
 		'referer'	:	'https://www.facebook.com/',
 		'host'	:	'business.facebook.com',
 		'origin'	:	'https://business.facebook.com',
 		'upgrade-insecure-requests'	:	'1',
-		'accept-language'	:	'en-GB,en;q=0.9,si-LK;q=0.8,si;q=0.7,en-US;q=0.6',
-		'cache-control'	:	'max-age=0',
-		'accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
-		'content-type'	:	'text/html; charset=utf-8'
+		'accept-language'	:	'en-US,en;q=0.5',
+		'cache-control'	:	'private, no-cache, no-store, must-revalidate',
+		'accept'	:	'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+		'content-type'	:	'text/html; charset="utf-8"'
 	}, cookies = cookies)
 	try:
 		token = re.search('(EAAG\w+)',str(res.text)).group(1)
